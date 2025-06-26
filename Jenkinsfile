@@ -21,7 +21,7 @@ pipeline {
             }
         }
         stage('Test') {
-            setps {               
+            steps {               
                 sh 'echo "Test stage"'
             }
         }
